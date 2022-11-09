@@ -1,0 +1,23 @@
+.form_control {
+	width: 100%;
+}
+
+.form_control textarea {
+	width: 100%;
+	outline: none;
+}
+
+.form_control.error input,
+.form_control.error textarea {
+	border: 1px solid red;
+}
+
+.form_control.error span {
+	color: red;
+}
+
+.formSummaryError {
+	border: 1px solid red;
+	padding: 5px;
+	color: red;
+}

@@ -1,0 +1,10 @@
+.page {
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.selected_page {
+	font-weight: bold;
+	color: #FFC43D;
+}

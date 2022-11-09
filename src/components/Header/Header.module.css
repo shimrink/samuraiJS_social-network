@@ -1,0 +1,24 @@
+header {
+	display: flex;
+	align-items: center;
+	background-color: #388659;
+	height: 100%;
+}
+
+header img {
+	width: auto;
+	height: 100%;
+}
+
+.login_block {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.login_block a {
+	color: #FFC43D;
+}
+
+.login_block a:hover {
+	color: #fff;
+}
