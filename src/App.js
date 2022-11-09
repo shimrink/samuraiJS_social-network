@@ -56,7 +56,7 @@ let AppContainer = compose(
 )(App)
 
 const SamuraiJSApp = (props) => {
-	return <BrowserRouter>
+	return <BrowserRouter basename='/'>
 		<Provider store={store}>
 			<AppContainer />
 		</Provider>
